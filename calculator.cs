@@ -6,6 +6,7 @@ class Calculator
     {
         Console.WriteLine("Name: Your Name, Roll No: Your Roll Number");
 
+ substraction
  multiplication
  division
         // Division
@@ -15,10 +16,14 @@ multiplication
 
         // Subtraction
 substraction
+
+        // Addition
+ addition
         Console.WriteLine("Enter first number: ");
         int a = Convert.ToInt32(Console.ReadLine());
         Console.WriteLine("Enter second number: ");
         int b = Convert.ToInt32(Console.ReadLine());
+ substraction
  multiplication
 division
         if (b == 0)
@@ -31,5 +36,8 @@ division
 
         Console.WriteLine("Difference: " + (a - b));
  substraction
+
+        Console.WriteLine("Sum: " + (a + b));
+ addition
     }
 }
