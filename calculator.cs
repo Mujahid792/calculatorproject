@@ -39,5 +39,7 @@ division
 
         Console.WriteLine("Sum: " + (a + b));
  addition
+     Console.WriteLine("Hello from conflict branch 2!");
+
     }
 }
